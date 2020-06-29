@@ -1,0 +1,58 @@
+body{
+    background: url(../image/fondo.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+}
+h2{
+    color: white;
+    background-color: rgb(18, 3, 153); background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px); background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px; background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; --darkreader-inline-bgcolor:#002557; --darkreader-inline-bgimage:linear-gradient(#000000 2px, rgba(0, 0, 0, 0) 2px), linear-gradient(90deg, #000000 2px, rgba(0, 0, 0, 0) 2px), linear-gradient(rgba(0, 0, 0, 0.3) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.3) 1px, rgba(0, 0, 0, 0) 1px);
+    display: block;
+    margin: auto;
+    color: red;
+    border-radius: 5px;
+    width: 20%;
+    font-size: xx-large;
+}
+table{
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    width: fit-content;
+}
+.titulo{
+    font-weight: bolder;
+    font-style: italic;
+    color: steelblue;
+}
+
+.boton{
+    background-color: rgb(34, 102, 153); background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px); background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px; background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; --darkreader-inline-bgcolor:#002557; --darkreader-inline-bgimage:linear-gradient(#000000 2px, rgba(0, 0, 0, 0) 2px), linear-gradient(90deg, #000000 2px, rgba(0, 0, 0, 0) 2px), linear-gradient(rgba(0, 0, 0, 0.3) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.3) 1px, rgba(0, 0, 0, 0) 1px);
+    display: block;
+    margin: auto;
+    color: seashell;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 10%;
+}
+.mensaje{
+    background-color: rgb(34, 153, 50); background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px); background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px; background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; --darkreader-inline-bgcolor:#002557; --darkreader-inline-bgimage:linear-gradient(#000000 2px, rgba(0, 0, 0, 0) 2px), linear-gradient(90deg, #000000 2px, rgba(0, 0, 0, 0) 2px), linear-gradient(rgba(0, 0, 0, 0.3) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.3) 1px, rgba(0, 0, 0, 0) 1px);
+    display: block;
+    margin: auto;
+    color: seashell;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 10%;
+}
+.mensajeErroneo{
+    background-color: rgb(153, 34, 34); background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px); background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px; background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; --darkreader-inline-bgcolor:#002557; --darkreader-inline-bgimage:linear-gradient(#000000 2px, rgba(0, 0, 0, 0) 2px), linear-gradient(90deg, #000000 2px, rgba(0, 0, 0, 0) 2px), linear-gradient(rgba(0, 0, 0, 0.3) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.3) 1px, rgba(0, 0, 0, 0) 1px);
+    display: block;
+    margin: auto;
+    color: seashell;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 10%;
+}

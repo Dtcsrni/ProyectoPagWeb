@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <form action="ingresa_contacto.php" method="post">
+        <table border=1 align=center>
+            <tr>
+            <th colspan=2><h2>FORMULARIO DE CONTACTO</h2></th>
+            </tr>
+            <tr>
+                <td><b>Nombre:</b></td>
+                <td><input type="text" name="nombre" requiere></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><input type="text" name="email" requiere></td>
+            </tr>
+            <tr>
+                <td><b>Teléfono:</b></td>
+                <td><input type="text" name="tel" requiere></td>
+            </tr>
+            <tr>
+                <td><b>Método de contacto preferido:</b></td>
+                <td>
+                <select name="met_con">
+                    <option value="0">-Selecciona una opcion</option>
+                    <option value="email">Por Email</option>
+                    <option value="tel">Por teléfono</option>
+                </select>              
+                </td>
+            </tr>
+            <tr>
+            <td colspan=2 align = center>
+            <textarea name="comentario" id="" cols="30" rows="10" placeholder="Déjanos saber tus comentarios"></textarea>
+            </td>
+            </tr>
+            <tr>
+                <td colspan=2 align=center>
+                <input type="submit" value="Aceptar">
+                </td>
+            </tr>
+        
+        </table>
+    </form>
+
+</body>
+</html>
