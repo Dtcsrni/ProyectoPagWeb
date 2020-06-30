@@ -25,7 +25,7 @@
                     <a href="contacto.html"><img src="image/contact.png" alt="Inicio" width="20%" style="vertical-align: middle;"> <span class="off">Contacto</span></a>
                     <?php
                     session_start();
-                    
+                    //Si la sesión está iniciada
                     if(isset($_SESSION['usuario'])){
                         $usuario = $_SESSION['usuario'];
                         echo "<a href=\"panel.php\"><img src=\"image/contact.png\" alt=\"Inicio\" width=\"20%\" style=\"vertical-align: middle; text-decoration:\"> <span class=\"off\">Panel</span></a>"; 
